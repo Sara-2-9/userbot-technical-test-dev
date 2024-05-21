@@ -23,8 +23,8 @@ This is a Node.js application that reads a file from a user-provided path (eithe
 
 2. **Clone the repository:**
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/Sara-2-9/userbot-technical-test-dev.git
+cd userbot-technical-test-dev
 ```
 
 3. **Install dependencies:**
