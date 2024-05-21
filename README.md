@@ -1,4 +1,4 @@
-#Word Counter Application
+# 🤓 Word Counter Application
 
 This is a Node.js application that reads a file from a user-provided path (either a local path or a web address) and provides the following statistics about the file:
 
@@ -7,7 +7,7 @@ This is a Node.js application that reads a file from a user-provided path (eithe
 - the total number of spaces;
 - words that repeat more than 10 times and the count of their occurrences.
 
-###🗂  Project Structure
+## 🗂  Project Structure
 
 - **index.ts**: the entry point of the application;
 - **functions.ts**: contains the main functions used in the application;
@@ -15,10 +15,10 @@ This is a Node.js application that reads a file from a user-provided path (eithe
 - **text.txt**: example text file used for testing;
 - **__tests__**: folder that contains the files for testing the individual functions
 
-###🛠️ Installation
+## 🛠️ Installation
 
-1. **Requirements:**
-**[node.js](https://nodejs.org/en)** >= v20.13.1
+1. **Requirements:**<br>
+**[node.js](https://nodejs.org/en)** >= v20.13.1<br>
 **[bun](https://bun.sh)** >= 1.1.8
 
 2. **Clone the repository:**
@@ -37,26 +37,26 @@ bun install
 bun run index.ts
 ```
    
-###⚡ Functions
+## ⚡ Functions
 
-**readPath**
+**readPath**<br>
 Reads the content of a file from a given path provided by the user.
 
-**totWords**
+**totWords**<br>
 Calculates the total number of words in a given text.
 
-**totLetters**
+**totLetters**<br>
 Calculates the total number of letters in a given text, excluding spaces and special characters.
 
-**totSpaces**
+**totSpaces**<br>
 Calculates the total number of empty spaces in a given text.
 
-**totRepeatWords**
+**totRepeatWords**<br>
 Returns an object with words that are repeated more than 10 times and their count.
 
-###🦺 Tests
+## 🦺 Tests
 
-This project includes unit tests for the main functions using Bun.sh.
+This project includes unit tests for the main functions using [Bun](https://bun.sh).
 All tests are located in the __tests__ directory.
 
 To run the tests, use:
@@ -66,4 +66,4 @@ bun test
 
 <br>
 <br>
-🔥 This project was created using `bun init` in bun v1.1.8. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+🔥 This project was created using `bun init` in bun v1.1.8. <a href="https://bun.sh">Bun</a> is a fast all-in-one JavaScript runtime.
